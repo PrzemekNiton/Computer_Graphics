@@ -69,7 +69,7 @@ public class Transforms2D extends JPanel {
 			{
 				int [] SpotX = {-50,50,50,150,-150};
 				int [] SpotY = {-150,-150,0,150,0};
-				g2.shear(0.35, 0);
+				g2.shear(0.50, 0);
 				g2.setPaint(Color.black);
 				g2.fillPolygon(SpotX,SpotY,5);
 				
@@ -80,7 +80,7 @@ public class Transforms2D extends JPanel {
 			{
 				int [] SpotX = {-50,50,50,150,-150};
 				int [] SpotY = {-150,-150,0,150,0};
-				g2.scale(1,0.3);
+				g2.scale(0.5,0.3);
 				g2.translate(0, -850);
 				g2.setPaint(Color.black);
 				g2.fillPolygon(SpotX,SpotY,5);
@@ -90,10 +90,17 @@ public class Transforms2D extends JPanel {
 			
 			case 6: 
 			{
+				//int [] SpotX = {-50,50,50,150,-150};
+				//int [] SpotY = {-150,-150,0,150,0};
+				//g2.shear(0,-0.5);
+				//g2.rotate(Math.PI/3);
+				//g2.setPaint(Color.black);
+				//g2.fillPolygon(SpotX,SpotY,5);
+				
 				int [] SpotX = {-50,50,50,150,-150};
 				int [] SpotY = {-150,-150,0,150,0};
-				g2.shear(0,-0.5);
-				g2.rotate(Math.PI/2);
+				g2.shear(0.50, 0);
+				g2.rotate(Math.PI);
 				g2.setPaint(Color.black);
 				g2.fillPolygon(SpotX,SpotY,5);
 				
@@ -117,7 +124,7 @@ public class Transforms2D extends JPanel {
 				int [] SpotX = {-50,50,50,150,-150};
 				int [] SpotY = {-150,-150,0,150,0};
 				g2.rotate(Math.toRadians(30));
-				g2.scale(1,0.3);
+				g2.scale(1,0.5);
 				g2.translate(0, 200);
 				g2.setPaint(Color.black);
 				g2.fillPolygon(SpotX,SpotY,5);
