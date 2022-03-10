@@ -90,12 +90,7 @@ public class Transforms2D extends JPanel {
 			
 			case 6: 
 			{
-				//int [] SpotX = {-50,50,50,150,-150};
-				//int [] SpotY = {-150,-150,0,150,0};
-				//g2.shear(0,-0.5);
-				//g2.rotate(Math.PI/3);
-				//g2.setPaint(Color.black);
-				//g2.fillPolygon(SpotX,SpotY,5);
+				
 				
 				int [] SpotX = {-50,50,50,150,-150};
 				int [] SpotY = {-150,-150,0,150,0};
